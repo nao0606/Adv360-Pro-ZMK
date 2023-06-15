@@ -79,11 +79,11 @@
 
         layer_Layer__4 {
             bindings = <
- &trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5            &trans                                                  &trans  &kp F6    &kp F7    &kp F8     &kp F9  &kp F10  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans    &trans    &kp UP  &kp LC(O)   &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT   &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans    &trans    &trans     &trans   &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans            &trans    &trans     &trans   &trans  &trans
+ &kp ESC              &kp F1              &kp F2            &kp F3               &kp F4  &kp F5            &trans                                                  &trans       &kp F6         &kp F7              &kp F8            &kp F9             &kp F10               &trans
+ &kp TAB  &mt undefined LEFT  &mt undefined DOWN  &mt undefined UP  &mt undefined RIGHT  &trans            &trans                                                  &trans  &kp PAGE_UP  &kp PAGE_DOWN              &kp UP         &kp LC(O)              &trans               &trans
+  &trans              &trans              &trans         &kp LC(C)            &kp LC(V)  &trans            &trans  &trans  &trans                  &trans  &trans  &trans     &kp HOME       &kp LEFT            &kp DOWN         &kp RIGHT              &trans               &trans
+  &trans              &trans              &trans   &mt undefined C      &mt undefined V  &trans                            &trans                  &trans                      &kp END      &kp LC(M)       &kp LC(COMMA)       &kp LC(DOT)        &kp LC(FSLH)               &trans
+  &trans              &trans              &trans            &trans               &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                      &trans  &mt undefined LEFT  &mt undefined UP  &mt undefined DOWN  &mt undefined RIGHT
             >;
         };
 
