@@ -60,9 +60,9 @@
 
         layer_Layer__4 {
             bindings = <
- &kp ESC        &kp F1        &kp F2      &kp F3         &kp F4  &kp F5               &none                                                                &none       &kp F6         &kp F7         &kp F8       &kp F9        &kp F10  &trans
- &kp TAB  &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)  &trans              &trans                                                               &trans  &kp PAGE_UP  &kp PAGE_DOWN         &kp UP    &kp LC(O)         &trans  &trans
-   &none        &trans        &trans   &kp LC(C)      &kp LC(V)  &trans             &kp ESC  &out OUT_USB  &out OUT_BLE                  &tog 1  &trans   &trans     &kp HOME       &kp LEFT       &kp DOWN    &kp RIGHT         &trans  &trans
+   &none        &kp F1        &kp F2      &kp F3         &kp F4  &kp F5               &none                                                                &none       &kp F6         &kp F7         &kp F8       &kp F9        &kp F10   &none
+ &kp ESC  &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)  &trans              &trans                                                               &trans  &kp PAGE_UP  &kp PAGE_DOWN         &kp UP    &kp LC(O)         &trans   &none
+ &kp TAB        &trans        &trans   &kp LC(C)      &kp LC(V)  &trans             &kp ESC  &out OUT_USB  &out OUT_BLE                  &tog 1  &trans   &trans     &kp HOME       &kp LEFT       &kp DOWN    &kp RIGHT         &trans  &trans
   &trans        &trans        &trans   &kp LG(C)      &kp LG(V)  &trans                                    &out OUT_TOG                  &trans                       &kp END      &kp LG(M)  &kp LG(COMMA)  &kp LG(DOT)  &kp LG(SLASH)  &trans
   &trans        &trans        &trans      &trans         &trans                    &kp LWIN        &trans        &trans                  &trans   &mo 3  &kp DEL                      &trans          &none        &none          &none   &none
             >;
@@ -72,7 +72,7 @@
             bindings = <
     &trans           &trans        &trans        &trans        &trans        &trans            &trans                                                  &trans        &trans         &trans        &trans                &trans                 &trans  &trans
  &kp GRAVE           &kp F1        &kp F2        &kp F3        &kp F4        &kp F5            &trans                                                  &trans        &kp F6         &kp F7        &kp F8                &kp F9                &kp F10  &trans
-     &none     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &trans  &trans  &trans                  &trans  &trans  &trans  &kp NUMBER_6   &kp NUMBER_7  &kp NUMBER_8          &kp NUMBER_9                 &kp N0  &trans
+   &kp TAB     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &trans  &trans  &trans                  &trans  &trans  &trans  &kp NUMBER_6   &kp NUMBER_7  &kp NUMBER_8          &kp NUMBER_9                 &kp N0  &trans
  &kp TILDE  &kp EXCLAMATION        &kp AT      &kp HASH    &kp DOLLAR   &kp PERCENT                            &trans                  &trans                     &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
     &trans           &trans        &trans        &trans        &trans                          &trans  &trans  &trans                  &trans  &trans  &trans                       &trans        &trans                &trans                 &trans  &trans
             >;
