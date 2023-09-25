@@ -62,19 +62,19 @@
             bindings = <
    &none        &kp F1        &kp F2      &kp F3         &kp F4       &kp F5              &none                                                                &none       &kp F6         &kp F7         &kp F8       &kp F9        &kp F10   &none
  &kp ESC  &kp LG(LEFT)     &kp LA(W)  &kp LG(UP)  &kp LG(RIGHT)       &trans              &none                                                                &none  &kp PAGE_UP  &kp PAGE_DOWN         &kp UP    &kp LC(O)         &trans   &none
- &kp TAB        &trans  &kp LG(DOWN)   &kp LC(C)      &kp LC(V)       &trans              &none  &out OUT_USB  &out OUT_BLE                  &tog 1  &trans   &trans     &kp HOME       &kp LEFT       &kp DOWN    &kp RIGHT         &trans  &trans
+ &kp TAB        &trans  &kp LG(DOWN)   &kp LC(C)      &kp LC(V)       &trans              &none  &out OUT_USB  &out OUT_BLE                  &tog 1  &trans    &none     &kp HOME       &kp LEFT       &kp DOWN    &kp RIGHT         &trans  &trans
   &trans        &trans     &kp LA(X)   &kp LG(C)      &kp LG(V)  &kp LA(TAB)                                   &out OUT_TOG                  &trans                       &kp END      &kp LG(M)  &kp LG(COMMA)  &kp LG(DOT)  &kp LG(SLASH)  &trans
-  &trans        &trans        &trans      &trans          &none                         &kp ESC        &trans        &trans                  &trans   &mo 3  &kp DEL                       &none          &none        &none          &none   &none
+   &none         &none        &trans      &trans          &none                         &kp ESC        &trans        &trans                  &trans   &mo 3  &kp DEL                       &none          &none        &none          &none   &none
             >;
         };
 
         layer_Layer__3 {
             bindings = <
-    &trans           &trans        &trans        &trans        &trans        &trans              &trans                                                     &trans        &trans         &trans        &trans                &trans                 &trans  &trans
- &kp GRAVE           &kp F1        &kp F2        &kp F3        &kp F4        &kp F5              &trans                                                     &trans        &kp F6         &kp F7        &kp F8                &kp F9                &kp F10  &trans
-   &kp TAB     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5              &trans  &trans  &trans                  &tog 3   &none     &trans  &kp NUMBER_6   &kp NUMBER_7  &kp NUMBER_8          &kp NUMBER_9                 &kp N0  &trans
+     &none           &trans        &trans        &trans        &trans        &trans               &none                                                      &none        &trans         &trans        &trans                &trans                 &trans   &none
+ &kp GRAVE           &kp F1        &kp F2        &kp F3        &kp F4        &kp F5               &none                                                      &none        &kp F6         &kp F7        &kp F8                &kp F9                &kp F10   &none
+   &kp TAB     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5               &none  &trans  &trans                  &tog 3   &none      &none  &kp NUMBER_6   &kp NUMBER_7  &kp NUMBER_8          &kp NUMBER_9                 &kp N0  &trans
  &kp TILDE  &kp EXCLAMATION        &kp AT      &kp HASH    &kp DOLLAR   &kp PERCENT                              &trans                  &trans                        &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-    &trans           &trans        &trans        &trans        &trans                          &kp BSPC   &mo 2  &trans                  &trans  &trans  &kp SPACE                        &none     &kp COLON               &kp DOT                 &trans  &trans
+     &none            &none        &trans        &trans         &none                          &kp BSPC   &mo 2  &trans                  &trans  &trans  &kp SPACE                        &none     &kp COLON               &kp DOT                  &none   &none
             >;
         };
 
