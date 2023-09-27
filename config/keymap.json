@@ -24,7 +24,7 @@
     ], [
          "&none",        "&none",     "&none",        "&none",      "&none",         "&none",             "&none",                                                               "&none",       "&none",         "&none",         "&none",       "&none",         "&none",  "&none",
        "&kp ESC", "&kp LG(LEFT)", "&kp LA(W)", "&kp LG(DOWN)", "&kp LG(UP)", "&kp LG(RIGHT)",             "&none",                                                               "&none", "&kp PAGE_UP", "&kp PAGE_DOWN",        "&kp UP",   "&kp LC(O)",        "&trans",  "&none",
-       "&kp TAB",       "&trans",     "&none",    "&kp LC(C)",  "&kp LC(V)",        "&trans",             "&none",  "&none",  "&none",                      "&none",  "&none",   "&none",    "&kp HOME",      "&kp LEFT",      "&kp DOWN",   "&kp RIGHT",        "&trans", "&tog 1",
+       "&kp TAB",       "&trans",     "&none",    "&kp LC(C)",  "&kp LC(V)",        "&trans",             "&none",  "&none",  "&none",                      "&none",  "&none",   "&none",    "&kp HOME",      "&kp LEFT",      "&kp DOWN",   "&kp RIGHT",        "&trans",  "&none",
         "&trans",       "&trans", "&kp LA(X)",    "&kp LG(C)",  "&kp LG(V)",   "&kp LA(TAB)",                                 "&none",                      "&none",                          "&kp END",     "&kp LG(M)", "&kp LG(COMMA)", "&kp LG(DOT)", "&kp LG(SLASH)", "&tog 3",
          "&none",        "&none",    "&trans",       "&trans",      "&none",                            "&kp ESC", "&trans",  "&none",                      "&none",  "&mo 3", "&kp DEL",                        "&none",         "&none",       "&none",         "&none",  "&none"
     ], [
